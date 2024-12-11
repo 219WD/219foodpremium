@@ -13,7 +13,7 @@ import salsa from '../assets/icons/salsa.svg';
 const menuData = [
     {
         id: 1,
-        image: "https://i.imgur.com/JftOGbD.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948041/1_czagpp.png",
         title: "Pattymelt",
         description: "Pan de molde, doble carne, doble cheddar, cebolla crispy, salsa de la casa.",
         presentacion: "Sumérgete en la perfección de la Pattymelt, una hamburguesa que combina el clásico pan de molde con una explosión de sabor en cada bocado. Con doble carne jugosa, doble cheddar cremoso, cebolla crujiente y nuestra salsa secreta, esta hamburguesa está diseñada para deleitar.",
@@ -23,7 +23,7 @@ const menuData = [
     },
     {
         id: 2,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Bacon-King.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948039/2_suqygv.png",
         title: "Americana",
         description: "Carne, cheddar, bacon, salsa especial.",
         presentacion: "Déjate seducir por la clásica Americana, una obra maestra cargada de sabor con carne a la parrilla, queso cheddar derretido, bacon crujiente y nuestra irresistible salsa especial. ¡El sabor de Estados Unidos en tus manos!",
@@ -33,7 +33,7 @@ const menuData = [
     },
     {
         id: 3,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Foto-web-carne_400x400-1.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948039/3_zbvcat.png",
         title: "Portobello",
         description: "Doble carne, doble cheddar, cebolla caramelizada, portobellos, rúcula, salsa.",
         presentacion: "Experimenta la sofisticación con nuestra Portobello, una hamburguesa que mezcla lo rústico y lo elegante. Doble carne suculenta, doble queso cheddar, cebolla caramelizada, portobellos frescos y rúcula, todo coronado con una salsa exquisita.",
@@ -43,7 +43,7 @@ const menuData = [
     },
     {
         id: 5,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Chili-King-carne-1.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948039/5_nkhai7.png",
         title: "Cheddar Bacon",
         description: "Carne, cheddar, bacon, salsa especial.",
         presentacion: "Un festival de queso y bacon te espera con la Cheddar Bacon. Queso cheddar cremoso, carne jugosa y bacon extra crujiente, fusionados con nuestra exclusiva salsa especial. ¡Cada bocado es pura satisfacción!",
@@ -53,7 +53,7 @@ const menuData = [
     },
     {
         id: 6,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Whopper-con-Queso.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948040/6_joc0yk.png",
         title: "Clasica",
         description: "Carne, cheddar, pepinillos, cebolla, lechuga, tomate, salsa, papas.",
         presentacion: "Transporta tus sentidos a una isla paradisíaca con la Hawaiana. Jugosa carne, queso suizo fundido, piña grillada, jamón delicioso y un toque de salsa teriyaki que te hará sentir el verano en cada mordida.",
@@ -63,7 +63,7 @@ const menuData = [
     },
     {
         id: 7,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Stacker-Triple-3.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948041/7_fgmpyb.png",
         title: "Spicy Burger",
         description: "Carne, jalapeños, queso pepper jack, salsa picante de la casa.",
         presentacion: "Para los amantes del picante, la Spicy Burger es un desafío ardiente. Carne asada, jalapeños explosivos, queso pepper jack y nuestra salsa picante exclusiva. ¡Atrévete a probarla si puedes soportar el calor!",
@@ -73,7 +73,7 @@ const menuData = [
     },
     {
         id: 8,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Stacker-Cuadruple-2.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948040/8_dtu3ld.png",
         title: "Portobello",
         description: "Carne, queso brie, champiñones portobello, rúcula, salsa de ajo.",
         presentacion: "Una versión gourmet del clásico con nuestra Portobello Deluxe: carne tierna, queso brie suave, champiñones portobello y rúcula fresca, bañados en una salsa de ajo inolvidable.",
@@ -83,7 +83,7 @@ const menuData = [
     },
     {
         id: 9,
-        image: "https://s3-eu-central-1.amazonaws.com/www.burgerking.com.ar.v2/wp-media-folder-bk-argentina/home/ubuntu/preview/menu-app/frontend/apps/marketing-website-wordpress-app/web/app/uploads/sites/5/Papas-Cheddar-1.png",
+        image: "https://res.cloudinary.com/dtxdv136u/image/upload/v1733948040/9_igwjxb.png",
         title: "Papas Cheddar",
         description: "Papas fritas con queso cheddar.",
         presentacion: "Un acompañamiento irresistible: Papas Cheddar. Papas fritas doradas y crujientes cubiertas con una generosa capa de queso cheddar derretido. ¡Perfectas para compartir o disfrutar sol@!",
