@@ -1,0 +1,94 @@
+.container.especial {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        linear-gradient(rgba(67, 67, 67, 0.7), rgba(62, 62, 62, 0.7)),
+        url("/src/assets/burgerbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: rgb(255, 106, 0);
+    position: relative;
+}
+
+.container.especial .txt {
+    width: 45vw;
+    height: 100vh;
+    background: linear-gradient(rgba(255, 106, 0, 1), rgba(255, 106, 0, 0.3));
+    position: absolute;
+    left: 4rem;
+}
+
+.txt h2 {
+    color: #f2f2f2;
+    font-size: 5rem;
+    line-height: 5rem;
+    font-family: "DM Sans", serif;
+    padding-top: 2rem;
+}
+
+.txt h4 {
+    color: #333;
+    font-size: 2rem;
+    line-height: 5rem;
+    font-family: "DM Sans", serif;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.txt p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 40vw;
+    color: #f2f2f2;
+    font-family: "Raleway", sans-serif;
+}
+
+.txt .btn-especial {
+    margin-top: 4rem;
+    width: 100%;
+    background: #ff6a00;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 900px) {
+    .container.especial {
+        background-position: right;
+    }
+    .container.especial .txt {
+        width: 90vw;
+        height: 100vh;
+        left: 1rem;
+    }
+    
+    .txt h2 {
+        color: #f2f2f2;
+        font-size: 2.7rem;
+        line-height: 2.7rem;
+        font-family: "DM Sans", serif;
+        padding-top: 2rem;
+    }
+    
+    .txt h4 {
+        color: #333;
+        font-size: 1.2rem;
+        line-height: 5rem;
+        font-family: "DM Sans", serif;
+        text-align: right;
+        margin-right: 1rem;
+    }
+    
+    .txt p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 80vw;
+    }
+}
